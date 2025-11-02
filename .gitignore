@@ -1,0 +1,51 @@
+# ===== ENTORNOS VIRTUALES =====
+venv/
+.env/
+.venv/
+env/
+ENV/
+venv.bak/
+pip-wheel-metadata/
+
+# ===== VARIABLES DE ENTORNO =====
+*.env
+
+# ===== ARCHIVOS DE COMPILACIÓN / CACHE =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== CONFIGURACIONES DE EDITORES =====
+.vscode/
+.idea/
+*.swp
+
+# ===== ARCHIVOS DE SISTEMA =====
+.DS_Store
+Thumbs.db
+
+# ===== ARCHIVOS TEMPORALES =====
+*.log
+*.tmp
+*.bak
+
+# ===== DEPENDENCIAS / BUILD =====
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== JUPYTER NOTEBOOK CHECKPOINTS =====
+.ipynb_checkpoints/
+
+# ===== CONFIGURACIÓN DE DJANGO / FLASK =====
+*.sqlite3
+db.sqlite3
+instance/
+*.db
+
+# ===== ARCHIVOS DE BACKUP O PRUEBA =====
+*.old
+*.save
+
+data/

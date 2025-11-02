@@ -1,0 +1,4 @@
+Entrenamiento completado con éxito
+Épocas: 100
+Modelo: YOLOv8n
+mAP@50: 0.14691402351076613

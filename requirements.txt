@@ -1,0 +1,10 @@
+streamlit>=1.0.0
+pandas>=2.0.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+ultralytics
+torch
+torchvision
+opencv-python
+pillow
+numpy
