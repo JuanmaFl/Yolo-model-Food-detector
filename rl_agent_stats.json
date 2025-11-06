@@ -1,9 +1,9 @@
 {
-  "total_interactions": 3,
-  "total_likes": 2,
+  "total_interactions": 5,
+  "total_likes": 4,
   "total_dislikes": 1,
   "alpha": {
-    "casual": 3,
+    "casual": 5,
     "gourmet": 1,
     "saludable": 1,
     "rapido": 1,
@@ -17,10 +17,10 @@
     "tradicional": 1
   },
   "style_counts": {
-    "casual": 5,
+    "casual": 6,
     "gourmet": 1,
-    "saludable": 0,
-    "rapido": 2,
+    "saludable": 2,
+    "rapido": 3,
     "tradicional": 2
   }
 }
