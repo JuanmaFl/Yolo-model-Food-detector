@@ -4,9 +4,8 @@
     "\\models",
     "\\models\\food_detector",
     "\\runs",
-    "\\runs\\detect\\foodseg_initial_run",
     "\\src"
   ],
-  "SelectedNode": "\\rl_agent_stats.json",
+  "SelectedNode": "\\src\\openai_chat.py",
   "PreviewInSolutionExplorer": false
 }

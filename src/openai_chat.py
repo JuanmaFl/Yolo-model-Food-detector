@@ -18,8 +18,14 @@ def generate_recipe_chat(ingredients: list, prompt_style: str) -> str:
     ingredients_str = ", ".join(ingredients)
     
     # El prompt_style se inyecta desde el Agente RL para personalizar la experiencia
-    system_prompt = f"Eres un chef de IA que solo usa los ingredientes proporcionados. Genera 3 ideas de recetas distintas para la siguiente lista de ingredientes, siguiendo el estilo: '{prompt_style}'. Para cada receta, proporciona el título, y una lista concisa de pasos."
-    
+    system_prompt = f"""Eres un chef de IA experto en crear recetas prácticas. Tu tarea es generar 3 ideas de recetas distintas usando los ingredientes proporcionados y siguiendo el estilo: '{prompt_style}'.
+
+Para cada una de las 3 recetas, DEBES incluir:
+1.  **Título:** Un nombre atractivo para la receta.
+2.  **Porciones:** Indica para cuántas personas es la receta (Asume 2 personas).
+3.  **Lista de Ingredientes:** Proporciona una lista detallada de ingredientes con **cantidades exactas** (ej: 100g, 1 taza, 2 cucharadas) para las 2 porciones.
+4.  **Pasos:** Una lista numerada y detallada de los pasos de preparación."""
+
     user_message = f"Mis ingredientes son: {ingredients_str}."
 
     try:
